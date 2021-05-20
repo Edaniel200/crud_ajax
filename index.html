@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD AJAX | practicas de código limpio</title>
+	<meta charset="utf-8">
+	<meta name="description" content="trata de realizar el CRUD mediante AJAX">
+	<meta name="keywords" content="ajax, crud, gestión, datos, practicas">
+	<meta http-equiv="cache-control" content="no-control">
+	<meta name="author" content="erwing daniel martinez vasquez">
+	<meta name="vireport" content="width=device-with; initial-scale=1">
+	<meta name="robot" content="index">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/general.js"></script>	
+</head>
+<body>
+	<header>
+		<h1>
+			CRUD BASADO EN APLICACION DE UNA SOLA P&AacuteGINA
+		</h1>
+	</header>
+	<section>
+		<div id="aboutForm">
+			<h3>
+				Formulario para insertar datos
+			</h3>
+		</div>
+
+		<form name="main_form">
+			<div id="div_name">
+				<input type="text" name="user_name" placeholder="Usuario">
+			</div>
+			<div id="div_password">
+				<input type="password" name="user_password" placeholder="Contraseña">
+			</div>
+			<div>
+				<input type="hidden" name="user_id" value="0">
+			</div>
+			<div id="div_send">
+				<button type="button" id="send" name="insertSend">Enviar</button>
+			</div>	
+		</form>
+		<div id="div_message">
+			<p id="message"></p>
+		</div>
+
+		<div id="generalContent">
+
+			A&uacuten no se ha cargado nada.
+
+		</div>
+
+
+	</section>
+</body>
+</html>
